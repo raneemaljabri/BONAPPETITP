@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="589.0" prefWidth="326.0" styleClass="background" stylesheets="@styleSheet.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bonappetitp.FXMLDocumentController">
+   <children>
+      <ImageView fx:id="BonAppetit" fitHeight="324.0" fitWidth="254.0" layoutX="56.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/BonAppetit.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="74.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avec toi dans des moments de joie">
+         <font>
+            <Font name="Javanese Text" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="113.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="معكم في لحظات الفرح">
+         <font>
+            <Font name="Javanese Text" size="12.0" />
+         </font>
+      </Text>
+      <Button fx:id="LOGINONE" layoutX="58.0" layoutY="439.0" mnemonicParsing="false" onAction="#nextLOGINONE" opacity="0.87" prefHeight="0.0" prefWidth="224.0" stylesheets="@styleSheet.css" text="LOG IN">
+         <font>
+            <Font name="Javanese Text" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="CreateAccount" layoutX="58.0" layoutY="492.0" mnemonicParsing="false" onAction="#nextCreateAccount" opacity="0.87" prefHeight="37.0" prefWidth="224.0" stylesheets="@styleSheet.css" text="Create Account">
+         <font>
+            <Font name="Javanese Text" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

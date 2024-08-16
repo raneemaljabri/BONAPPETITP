@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="589.0" prefWidth="326.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bonappetitp.FXMLDocumentController">
+   <children>
+      <Rectangle fill="WHITE" height="70.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" width="326.0" />
+      <Button fx:id="cartAll" layoutX="252.0" layoutY="24.0" mnemonicParsing="false" onAction="#switchToCart" prefHeight="30.0" prefWidth="60.0" stylesheets="@styleSheet.css" text="Cart" />
+      <Button fx:id="backNine" layoutX="14.0" layoutY="24.0" mnemonicParsing="false" onAction="#switchToBackNine" prefHeight="30.0" prefWidth="60.0" stylesheets="@styleSheet.css" text="Back" />
+      <Rectangle fill="WHITE" height="57.0" layoutY="85.0" stroke="#b2afaf" strokeType="INSIDE" width="326.0" />
+      <Rectangle fill="WHITE" height="50.0" layoutY="331.0" stroke="#b2afaf" strokeType="INSIDE" width="326.0" />
+      <Rectangle fill="#ebebeb" height="80.0" layoutY="152.0" stroke="#b2afaf" strokeType="INSIDE" strokeWidth="2.0" width="326.0" />
+      <Rectangle fill="#ebebeb" height="80.0" layoutY="240.0" stroke="#b2afaf" strokeType="INSIDE" strokeWidth="2.0" width="326.0" />
+      <Rectangle fill="#ebebeb" height="80.0" layoutY="390.0" stroke="#b2afaf" strokeType="INSIDE" strokeWidth="2.0" width="326.0" />
+      <Rectangle fill="#ebebeb" height="80.0" layoutY="480.0" stroke="#b2afaf" strokeType="INSIDE" strokeWidth="2.0" width="326.0" />
+      <Label layoutX="121.0" layoutY="101.0" text="FEMALE" textFill="#676767">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="344.0" text="MALE" textFill="#676767">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="152.0" layoutY="22.0" text="DJ">
+         <font>
+            <Font name="Arabic Typesetting" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="70.0" fitWidth="84.0" layoutX="14.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/woman.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="84.0" layoutX="14.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/woman.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="84.0" layoutX="14.0" layoutY="395.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/man.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="84.0" layoutX="14.0" layoutY="485.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/man.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="95.0" layoutY="169.0" text="Shouq">
+         <font>
+            <Font name="Century Gothic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="257.0" text="Abeer">
+         <font>
+            <Font name="Century Gothic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="407.0" text="Ahmed">
+         <font>
+            <Font name="Century Gothic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="497.0" text="Yaaqoub">
+         <font>
+            <Font name="Century Gothic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="264.0" layoutY="210.0" text="Mecca" textFill="#797979">
+         <font>
+            <Font name="Bodoni MT" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="268.0" layoutY="299.0" text="Jeddah" textFill="#797979">
+         <font>
+            <Font name="Bodoni MT" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="268.0" layoutY="448.0" text="Jeddah" textFill="#797979">
+         <font>
+            <Font name="Bodoni MT" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="264.0" layoutY="538.0" text="Mecca" textFill="#797979">
+         <font>
+            <Font name="Bodoni MT" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="23.0" fitWidth="38.0" layoutX="102.0" layoutY="199.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/waveform-path.png" />
+         </image>
+         <effect>
+            <Lighting specularConstant="0.46" specularExponent="0.0" surfaceScale="0.0">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="38.0" layoutX="102.0" layoutY="288.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/waveform-path.png" />
+         </image>
+         <effect>
+            <Lighting specularConstant="0.46" specularExponent="0.0" surfaceScale="0.0">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="38.0" layoutX="103.0" layoutY="437.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/waveform-path.png" />
+         </image>
+         <effect>
+            <Lighting specularConstant="0.46" specularExponent="0.0" surfaceScale="0.0">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="38.0" layoutX="102.0" layoutY="527.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/waveform-path.png" />
+         </image>
+         <effect>
+            <Lighting specularConstant="0.46" specularExponent="0.0" surfaceScale="0.0">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+   </children>
+</AnchorPane>

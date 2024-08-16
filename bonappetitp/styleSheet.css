@@ -1,0 +1,27 @@
+.button
+{
+    -fx-background-color: cadetblue   ;
+     -fx-background-redius:25px;
+      -fx-pref-column-count:25;
+   
+}
+.button:hover
+{
+   -fx-background-color:  lightsteelblue  ;  
+    -fx-background-redius:25px;
+      -fx-pref-column-count:25;
+}
+
+.background
+{
+    -fx-background-color: white; 
+}
+.text-field
+{
+     -fx-border-color: cadetblue ;
+     -fx-border-width:2px;
+     -fx-border-redius:25px;
+     -fx-background-redius:25px;
+      -fx-pref-column-count:25;
+     
+}

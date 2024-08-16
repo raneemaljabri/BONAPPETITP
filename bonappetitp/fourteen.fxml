@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="589.0" prefWidth="326.0" stylesheets="@styleSheet.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bonappetitp.FXMLDocumentController">
+   <children>
+      <ListView fx:id="noteList" layoutX="157.0" layoutY="104.0" prefHeight="372.0" prefWidth="156.0" />
+      <ListView fx:id="orderList" layoutX="17.0" layoutY="104.0" prefHeight="372.0" prefWidth="133.0" />
+      <Label layoutX="124.0" layoutY="25.0" text="Orders">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="78.0" text="Order name">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="221.0" layoutY="78.0" text="Notes">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="orders" layoutX="61.0" layoutY="505.0" mnemonicParsing="false" onAction="#displayOrder" prefHeight="38.0" prefWidth="203.0" text="Disply Orders">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="OrderToHome" layoutX="16.0" layoutY="17.0" mnemonicParsing="false" onAction="#switchToBack" text="Home">
+         <font>
+            <Font name="System Italic" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="logout" layoutX="264.0" layoutY="17.0" mnemonicParsing="false" onAction="#Logout" text="Logout">
+         <font>
+            <Font name="System Italic" size="11.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

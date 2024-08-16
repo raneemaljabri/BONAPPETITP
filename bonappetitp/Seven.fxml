@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="589.0" prefWidth="326.0" style="-fx-background-color: #F6F8F4;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bonappetitp.FXMLDocumentController">
+   <children>
+      <Rectangle fill="WHITE" height="589.0" stroke="BLACK" strokeType="INSIDE" width="326.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1.0" />
+      <Button fx:id="cartAll" layoutX="253.0" layoutY="23.0" mnemonicParsing="false" onAction="#switchToCart" prefHeight="30.0" prefWidth="60.0" stylesheets="@styleSheet.css" text="Cart" />
+      <Button fx:id="backAll" layoutX="14.0" layoutY="23.0" mnemonicParsing="false" onAction="#switchToBack" prefHeight="30.0" prefWidth="60.0" stylesheets="@styleSheet.css" text="Back" />
+      <Label layoutX="107.0" layoutY="26.0" text="Appetizers">
+         <font>
+            <Font name="Felix Titling" size="20.0" />
+         </font>
+      </Label>
+      <Rectangle fill="#ebebeb" height="75.0" layoutX="6.0" layoutY="99.0" stroke="#b2afaf" strokeType="INSIDE" width="316.0" />
+      <Rectangle fill="#ebebeb" height="75.0" layoutX="6.0" layoutY="178.0" stroke="#b2afaf" strokeType="INSIDE" width="316.0" />
+      <Rectangle fill="#ebebeb" height="75.0" layoutX="6.0" layoutY="258.0" stroke="#b2afaf" strokeType="INSIDE" width="316.0" />
+      <Rectangle fill="#ebebeb" height="75.0" layoutX="6.0" layoutY="338.0" stroke="#b2afaf" strokeType="INSIDE" width="316.0" />
+      <Rectangle fill="#ebebeb" height="75.0" layoutX="5.0" layoutY="417.0" stroke="#b2afaf" strokeType="INSIDE" width="316.0" />
+      <Rectangle fill="#ebebeb" height="75.0" layoutX="6.0" layoutY="495.0" stroke="#b2afaf" strokeType="INSIDE" width="316.0" />
+      <Label layoutX="108.0" layoutY="110.0" text="Stuffed Grape Leafs">
+         <font>
+            <Font name="Bell MT" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="5.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Stuffed%20Grape%20Leaves.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="5.0" layoutY="180.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/Kibbeh.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="5.0" layoutY="261.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/Bruschetta.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="5.0" layoutY="340.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/Mini%20Sandwiches%20.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="5.0" layoutY="419.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/Caprese%20Skewers.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="5.0" layoutY="498.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/Tabbouleh.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="112.0" layoutY="186.0" text="Kibbeh">
+         <font>
+            <Font name="Bell MT" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="112.0" layoutY="263.0" text="Bruschetta">
+         <font>
+            <Font name="Bell MT" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="112.0" layoutY="350.0" text="Mini Sandwiches">
+         <font>
+            <Font name="Bell MT" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="113.0" layoutY="427.0" text="Caprese Skewers">
+         <font>
+            <Font name="Bell MT" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="112.0" layoutY="508.0" text="Tabbouleh">
+         <font>
+            <Font name="Bell MT" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="112.0" layoutY="462.0" text="13 SR">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="112.0" layoutY="547.0" text="16 SR">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="112.0" layoutY="389.0" text="12 SR">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="112.0" layoutY="307.0" text="15 SR">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="112.0" layoutY="223.0" text="15 SR">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="112.0" layoutY="146.0" text="20 SR">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

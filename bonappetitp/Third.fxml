@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="589.0" prefWidth="326.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bonappetitp.FXMLDocumentController">
+    <children>
+      <Button fx:id="SIGNIN" layoutX="31.0" layoutY="503.0" mnemonicParsing="false" onAction="#nextSIGNIN" prefHeight="39.0" prefWidth="269.0" stylesheets="@styleSheet.css" text="SIGN IN">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="23.0" layoutY="26.0" text="CREATE ACCOUNT">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="73.0" text="Full Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="129.0" text="Email">
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="185.0" text="Phone Number">
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="239.0" text="Password">
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="295.0" text="Confirm Password">
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="FullName" layoutX="22.0" layoutY="93.0" prefHeight="25.0" prefWidth="282.0" promptText="Walaa ahmed" />
+      <TextField fx:id="SecondEmailField" layoutX="24.0" layoutY="147.0" onKeyPressed="#switchFieldTwo" prefHeight="25.0" prefWidth="282.0" promptText="exampl@gmail.com" />
+      <TextField fx:id="PhoneNumber" layoutX="26.0" layoutY="203.0" prefHeight="25.0" prefWidth="282.0" promptText="0532456783" />
+      <PasswordField fx:id="SecondPasswordField" layoutX="28.0" layoutY="257.0" onKeyPressed="#switchFieldTwo" prefHeight="25.0" prefWidth="282.0" />
+      <PasswordField fx:id="CPassword" layoutX="28.0" layoutY="313.0" onKeyPressed="#switchFieldTwo" prefHeight="25.0" prefWidth="282.0" />
+      <Label layoutX="29.0" layoutY="459.0" prefHeight="20.0" prefWidth="63.0" text="Gender :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Male" layoutX="241.0" layoutY="461.0" mnemonicParsing="false" onKeyPressed="#switchFieldThree" selected="true" text="male">
+         <toggleGroup>
+            <ToggleGroup fx:id="TG" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="Female" layoutX="150.0" layoutY="461.0" mnemonicParsing="false" onKeyPressed="#switchFieldThree" prefHeight="17.0" prefWidth="59.0" selected="true" text="Female" toggleGroup="$TG" />
+      <Label layoutX="30.0" layoutY="349.0" text="City : ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="ComboBox" layoutX="28.0" layoutY="369.0" prefHeight="25.0" prefWidth="282.0" />
+      <Label layoutX="27.0" layoutY="406.0" text="Date Of Birth : ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="Birth" layoutX="26.0" layoutY="424.0" onAction="#showAge" prefHeight="25.0" prefWidth="136.0" promptText="10\20\2000" />
+      <Label fx:id="Age" layoutX="289.0" layoutY="426.0" prefHeight="20.0" prefWidth="22.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="BindAge" disable="true" layoutX="289.0" layoutY="426.0" prefHeight="20.0" prefWidth="22.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="209.0" layoutY="428.0" text="Your Age is : ">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
